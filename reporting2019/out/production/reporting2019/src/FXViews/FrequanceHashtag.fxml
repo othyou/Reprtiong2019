@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.FrequenceHashtag">
+    <top>
+        <HBox alignment="CENTER_RIGHT">
+            <ComboBox fx:id="combobox"></ComboBox>
+            <DatePicker fx:id="datePicker"/>
+        </HBox>
+
+    </top>
+    <center>
+        <Pane fx:id="chartContent"/>
+
+    </center>
+</BorderPane>

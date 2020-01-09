@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane prefHeight="550.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.NombreTweets">
+    <top>
+        <HBox alignment="CENTER_RIGHT">
+            <ComboBox fx:id="combobox"></ComboBox>
+            <DatePicker fx:id="datePicker"/>
+        </HBox>
+
+    </top>
+    <center>
+        <Label fx:id="labelnombre" style="-fx-font-size: 24 ;-fx-text-fill: #ff8117"/>
+
+    </center>
+
+</BorderPane>

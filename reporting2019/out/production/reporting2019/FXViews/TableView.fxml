@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.ListeTableListe">
+    <top>
+        <HBox alignment="CENTER_RIGHT">
+            <Label text="Filtre"/>
+            <TextField fx:id="filterTextField" BorderPane.alignment="CENTER" promptText="search username"/>
+        </HBox>
+    </top>
+    <center>
+        <TableView fx:id="tableView" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="10" right="2" bottom="2" left="2"/>
+            </padding>
+        </TableView>
+    </center>
+    <left>
+    </left>
+
+</BorderPane>

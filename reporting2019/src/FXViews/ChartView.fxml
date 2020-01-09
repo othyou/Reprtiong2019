@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane prefHeight="200.0" prefWidth="200.0"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="FXControllers.ChartView">
+
+    <center>
+        <TabPane prefHeight="200.0" prefWidth="200.0" fx:id="tabPane" tabClosingPolicy="UNAVAILABLE"
+                 xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+            <tabs>
+                <Tab text="Nombre de tweets">
+                    <fx:include source="NombreTweets.fxml"></fx:include>
+                </Tab>
+                <Tab text="populaire">
+                    <fx:include source="PersonnePopulaire.fxml"></fx:include>
+                </Tab>
+                <Tab text="fréquences de hashtags">
+                    <fx:include source="FrequanceHashtag.fxml"></fx:include>
+                </Tab>
+            </tabs>
+
+        </TabPane>
+
+
+    </center>
+
+</BorderPane>
